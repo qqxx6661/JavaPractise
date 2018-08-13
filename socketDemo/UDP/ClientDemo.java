@@ -2,7 +2,7 @@
  * sinture.com Inc.
  * Copyright (c) 2016-2018 All Rights Reserved.
  */
-package test.socketDemo.UDP;
+package socketDemo.UDP;
 
 import java.io.IOException;
 import java.io.InterruptedIOException;

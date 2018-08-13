@@ -2,7 +2,7 @@
  * sinture.com Inc.
  * Copyright (c) 2016-2018 All Rights Reserved.
  */
-package test.socketDemo.TCP;
+package socketDemo.TCP;
 
 import java.io.BufferedReader;
 import java.io.IOException;
