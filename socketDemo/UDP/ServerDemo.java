@@ -7,7 +7,6 @@ package socketDemo.UDP;
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
-
 /**
  * @author yzd
  * @version Id: ServerDemo.java, v 0.1 2018年07月10日 15:12 yzd Exp $

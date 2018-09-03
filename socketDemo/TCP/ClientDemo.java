@@ -44,6 +44,7 @@ public class ClientDemo {
                 }
             }
         }
+
         input.close();
         if(client != null){
             //如果构造函数建立起了连接，则关闭套接字，如果没有建立起连接，自然不用关闭
