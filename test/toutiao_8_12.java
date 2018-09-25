@@ -2,7 +2,7 @@ package test;
 
 //import java.util.Scanner;
 //
-//public class Main {
+//public class test.Main {
 //    static boolean flag = true;
 //    public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in
@@ -133,7 +133,7 @@ public class toutiao_8_12 {
 
 //import java.util.Scanner;
 //
-//public class test {
+//public class isPal {
 //    static boolean flag = true;
 //    public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in

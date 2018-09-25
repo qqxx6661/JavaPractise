@@ -6,17 +6,7 @@ import java.util.Scanner;
  * Created by lenovo on 2018/9/3.
  */
 public class Main {
-    //    public static int diGuiF(int m,int n){
-//        if(n == m){
-//            return 0;
-//        }
-//        if(diGuiF(m+1,n)<diGuiF(2*m,n)){
-//            return diGuiF(m+1,n)+1;
-//        }
-//        else {
-//            return diGuiF(2*m,n)+1;
-//        }
-//    }
+
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
