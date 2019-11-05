@@ -9,7 +9,7 @@ public class NewsProvider implements ApplicationContextAware {
     private News news;
 
     public News getNews() {
-        return applicationContext.getBean("news", News.class);
+        return news;
     }
 
     public void setNews(News news) {

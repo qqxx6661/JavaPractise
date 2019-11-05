@@ -5,6 +5,6 @@
 
     <bean id="news" class="News" scope="prototype"/>
     <bean id="newsProvider" class="NewsProvider">
-        <property name="news" ref="news"/>
+        <lookup-method name="getNews" bean="news"/>
     </bean>
 </beans>

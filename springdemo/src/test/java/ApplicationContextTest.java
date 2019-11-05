@@ -8,7 +8,8 @@ public class ApplicationContextTest {
         String configLocation = "application.xml";
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext(configLocation);
         NewsProvider newsProvider = (NewsProvider) applicationContext.getBean("newsProvider");
-        System.out.println(newsProvider.getNews());
-        System.out.println(newsProvider.getNews());
+        System.out.println("newsProvider -> " + newsProvider);
+        System.out.println("news 1 -> " + newsProvider.getNews());
+        System.out.println("news 2 -> " + newsProvider.getNews());
     }
 }
