@@ -3,5 +3,8 @@
        xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd" default-autowire="byName">
 
-    <bean id="iocservice" class="service.IOCServiceImpl"/>
+    <bean id="news" class="News" scope="prototype"/>
+    <bean id="newsProvider" class="NewsProvider">
+        <property name="news" ref="news"/>
+    </bean>
 </beans>
