@@ -2,7 +2,7 @@ import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 
-public class NewsProvider implements ApplicationContextAware {
+public class NewsProvider {
 
     private ApplicationContext applicationContext;
 
@@ -16,8 +16,4 @@ public class NewsProvider implements ApplicationContextAware {
         this.news = news;
     }
 
-    @Override
-    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        this.applicationContext = applicationContext;
-    }
 }
