@@ -10,7 +10,7 @@ public class Base {
         System.out.println("pid:"+s);
         while (true) {
             try {
-                Thread.sleep(5000L);
+                Thread.sleep(3000L);
             } catch (Exception e) {
                 break;
             }
